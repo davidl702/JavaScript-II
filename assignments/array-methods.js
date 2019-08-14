@@ -79,6 +79,9 @@ console.log(largeShirts);
 
 // ==== Challenge 4: Use .reduce() ====
 // The donations need to be tallied up and reported for tax purposes. Add up all the donations into a ticketPriceTotal array and log the result
+const donations = runners.map(runner => {
+    return runner.donation});
+// console.log(donations)
 let ticketPriceTotal = donations.reduce(function(acc, value) {
     return acc + value
 })
@@ -104,7 +107,7 @@ console.log(emails)
 // Problem 3
 
 let company = [];
-runners.forEach((index) => {
-   return company.push(`${company_name}`)
+runners.forEach(runner => {
+   return company.push(`${runner.company_name}`)
 })
 console.log(company)
